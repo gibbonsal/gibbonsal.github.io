@@ -1,0 +1,105 @@
+
+/*header*/
+a.top-navbar-text-latitude{
+    margin-left: 0px;
+    padding: 10px;
+    background-color: #064686;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+h3{
+    color: #064686;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+
+/*header navbar*/
+.navbar{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-right:40px;
+}
+
+.nav-item.dropdown.show {
+    background-color: #ddd;
+}
+
+
+.dropdown-menu {
+    margin: 0;
+}
+
+.thumbnails{
+    padding:10px;
+    border: none;
+}
+
+
+/*body*/
+p{
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+   padding:10px;
+}
+
+
+body{
+    background-color: #DFDEDE;
+}
+.col-md-12{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+
+.pic{
+    border: 3px #064686;
+}
+
+
+
+
+/*content*/
+.content {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.content.bg-white {
+    margin-top: 15px;
+}
+
+
+
+
+/*footer*/
+.tiny-footer{
+    background-color: #064686;
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*small screen*/
+@media(max-width:800px){
+    body{
+    background-color: #FFFFFF;
+    }
+    .navbar.bg-light{
+        background-color: #064686;    
+    }
+
+    .navbar-collapse{
+        background-color: #f8f9fa;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
